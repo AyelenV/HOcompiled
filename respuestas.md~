@@ -1,0 +1,5 @@
+make processing
+corre el gcc genera el Pre-proceso y se detiene.  Crea archivo calculador.pp_c 
+gcc -E calculator.c -o calculator.pp_c 
+
+

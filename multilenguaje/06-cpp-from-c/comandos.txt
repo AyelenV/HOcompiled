@@ -1,0 +1,202 @@
+    1  ipython notebook
+    2  mkdir proyecto
+    3  cd proyecto
+    4  ls
+    5  git init
+    6  ls
+    7  vi README.md
+    8  git status
+    9  git add README.md 
+   10  git commit
+   11  git log
+   12  git log --online
+   13  git log --oneline
+   14  git branch charlas
+   15  git status
+   16  git branch
+   17  git checkout charlas
+   18  vi README.md
+   19  git status
+   20  git add
+   21  git add README.md 
+   22  git status
+   23  git commit
+   24  git log
+   25  git log --oneline
+   26  git checkout master
+   27  git branch
+   28  git branch ejercicios
+   29  git status
+   30  git checkout ejercicios
+   31  git branch
+   32  git log
+   33  vi ejercicios.md
+   34  git status
+   35  git add ejercicios.md 
+   36  git commit
+   37  git log --oneline
+   38  git checkout master
+   39  git log
+   40  git merge --no-ff ejercicios
+   41  ls
+   42  cat README.md 
+   43  git merge --no-ff charlas 
+   44  git log --oneline
+   45  git checkout master
+   46  git branch
+   47  git log --oneline --graph
+   48  git clone https://github.com/AyelenV/HOgit
+   49  ls
+   50  cd HOgit/
+   51  ls
+   52  vi README.md 
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd proyecto/
+   57  ls
+   58  cd HOgit/
+   59  git branch
+   60  vi README.md 
+   61  git log
+   62  git status
+   63  git add README.md 
+   64  git commit 
+   65  ls
+   66  git status
+   67  git log
+   68  git log --oneline
+   69  cd ..
+   70  ls
+   71  rm HOgit/
+   72  cd ..
+   73  ls
+   74  git clone https://github.com/AyelenV/HOgit
+   75  ls
+   76  git che
+   77  ls
+   78  git status
+   79  vi README.md 
+   80  git statusç
+   81  git status
+   82  git commit -a
+   83  git status
+   84  git log --oneline
+   85  git branch cosas
+   86  history
+   87  history > historia.txt
+   88  more historia.txt 
+   89  ls
+   90  git status
+   91  git log --oneline
+   92  git branch prueba
+   93  ls
+   94  vi ejercicios.md 
+   95  git checkout cosas
+   96  git log
+   97  git log --oneline
+   98  git status
+   99  git branch
+  100  vi prueba1.md 
+  101  vi prueba2.md 
+  102  ls
+  103  cd ..
+  104  git clone https://github.com/AyelenV/HOoop/find/master
+  105  git status
+  106  ls
+  107  cd wtpc-23
+  108  ls
+  109  git clone https://github.com/AyelenV/HOoop
+  110  ls
+  111  cd HOoop/
+  112  vi main.py 
+  113  ipython notebook
+  114  ls
+  115  ipython notebook $
+  116  git clone https://github.com/AyelenV/HOcompiled
+  117  ls
+  118  cd HOcompiled/
+  119  ls
+  120  vi respuestas.md
+  121  ls
+  122  make preprocessing
+  123  LS
+  124  ls
+  125  cd compilador/
+  126  ls
+  127  make preprocessing
+  128  make assembler
+  129  make object
+  130  ls
+  131  gedit calculator.asm $
+  132  ls
+  133  gedit calculator.o $
+  134  nm calculador.o
+  135  nm calculator.o
+  136  make executable 
+  137  nm calculator.e
+  138  ls
+  139  more calculator.c
+  140  more calculator.pp_c 
+  141  nm calculator.o
+  142  make all
+  143* 
+  144  make all
+  145  nm calculator.o
+  146  nm calculator.e
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd multilenguaje/
+  151  ls
+  152  cd 04-c-from-f/
+  153  ls
+  154  emacs reglas.txt &
+  155  make objects
+  156  make objects_c
+  157  gcc -c c-sum.c -o c-sum.o
+  158  clear
+  159  gcc -c c-sum.c -o c-sum.o
+  160  make executable
+  161  clear
+  162  nm c-sum.o
+  163  nm f-main.o
+  164  nm f-main_f90.o 
+  165  gcc -c c-sum.c -o c-sum.o
+  166  nm c-sum.o
+  167  make executable 
+  168  clear
+  169  nm c-sum.o
+  170  nm f-main_f90.o 
+  171  gcc c-sum.o f-main_f90.o -o main.e
+  172  gfortran c-sum.o f-main_f90.o -o main.e
+  173  ./main.e 
+  174  history
+  175  history>comandos.txt
+  176  ls
+  177  cd..
+  178  cd ..
+  179  ls
+  180  cd 06-cpp-from-c/
+  181  ls
+  182  emacs cpp-sum.cpp &
+  183  clear
+  184  ls
+  185  emacs cpp-sum.cpp &
+  186  emacs c-sum.c &
+  187  make objects
+  188  make objects_c
+  189  gcc c-main_c.o cpp-sum_cpp.o -o main.e 
+  190  gcc cpp-sum_cpp.o c-main_c.o -o main.e 
+  191  nm cpp-sum_cpp.o 
+  192  ls
+  193  emacs cpp-sum.h &
+  194  nm cpp-sum_cpp.o 
+  195  make objects
+  196  rm cpp-sum_cpp.o 
+  197  make objects
+  198  nm cpp-sum_cpp.o 
+  199  gcc cpp-sum_cpp.o c-main_c.o -o main.e 
+  200  ./main.e
+  201  history 
+  202  history > comandos.txt
